@@ -1,0 +1,9 @@
+group("libs")
+project("inih")
+  uuid("d65882b7-787d-44b0-bb56-fb38ca4635a4")
+  kind("StaticLib")
+  language("C++")
+  files({
+        "ini.c",
+        "ini.h",
+  })
